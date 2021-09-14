@@ -6,22 +6,87 @@
 	<style>
 		body{background: pink;}
 		h3{color: crimson;}
+
+	table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+		#myHeader {
+  background-color: purple;
+  color: whitesmoke;
+  padding: 20px;
+  text-align: center;
+} 
+		
+		
+		.dollheaders {
+  background-color: palevioletred;
+  color: white;
+  border: 1px solid yellow;
+  margin: 3px;
+  padding: 3px;
+}
+	
 	</style>
 	</head>
 <body>
-	<h1>Abby Luna Creations</h1>
+	<h1 id="myHeader">Abby Luna Creations</h1>
 	<h2>Welcome dolls!</h2>
-	<h3>About me.</h3>
+	<div class="dollheaders"><h3>About me.</h3></div>	
 	<p style="color: midnightblue">Hi my name is Abby.<br/>Welcome to Abby Luna Creations.<br/>I enjoy <i>taking realstic doll photographs, sewing, making videos, and drawing.</i><br/>Do you like toys and dolls too? <a href="https://creations.mattel.com/pages/barbie-signature">Check out Mattel Creations!</a></p>
 	<img src="Images/abbywithbarbiebook2.jpg" alt="abbywithbarbiebook">
+	<br/>
+	<br/>
+<table>
+	<tr id="dolls_data">
+		<th>Dolls Owned</th>
+		<th>Company Produced</th>
+		<th>Favorite Ranking</th>
+	</tr>
+	
+	<tr>
+	<td>Barbie</td>
+	<td>Mattel</td>
+	<td>1st</td>
+	</tr>
+	
+	<tr>
+	<td>Bratz</td>
+	<td>MGA</td>
+	<td>2nd</td>
+	</tr>
+	
+	<tr>
+	<td>Rainbow High</td>
+	<td>MGA</td>
+	<td>3rd</td>
+	</tr>
+	
+	</table>
+
 	
 	<h3>Understanding play.</h3>
 	<p>Thinking back to my childhood, I reflect on where a lot of my<b> creativity sparked</b> from and that was through play.<br/>Play was a way for me to bring my imagination to life and it was super fun!<br/>For more fun information check out my other <a href="page1.html">page.</a></p>
 	<img src="Images/littleabbywithbarbieclothes2.jpg" alt="littleabbywithbarbieclothes">
 	
+	<h2>Dolls the interest me!</h2>
+<ul>
+  <li>Calico Critters</li>
+  <li>Barbie</li>
+  <li id="dollname"></li>
+	<li>Monster High</li>
+	<li>Rainbow High</li>
+</ul>
+	
 	<h3>"It might sound silly to some, but being able to be creative with dolls takes so much stress away from me."</h3>
 	<p style="color:darkblue">There's something so awesome about being able to make small items look life size!<br/>Life is so crazy, so when I can stop and create; the world seems so small.<br/>All my stress disappers.<br/>The photo below contains my mini me Babrie that my husband found for me.<br/>In addition, I built the closet in the background from scratch.</p>
 	<img src="Images/babriewithclothesincloset2.jpg" alt="barbiewithclothesindollsizedcloset">
+	
+	
+	
+	<script>
+document.getElementById("dollname").innerHTML = "Bratz";
+</script>
 	
 	</body>
 </html>
